@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head and body are the children of the html  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shivam's website</title>
+</head>
+<body>
+    <h1>Sites to learn coding</h1>
+    <!-- h1 and p are the children of the body -->
+    <p>This is my first code for lab1</p>
+    <p><a href="https://www.google.com/search?q=hacker+rank&rlz=1C1GCEB_enIN957IN957&oq=hacker+rank&aqs=chrome..69i57j0i10i512j0i433i512j0i10i512j0i10i131i433i512j69i60l3.2520j0j7&sourceid=chrome&ie=UTF-8">link for more coding information</a></p>
+    <img src="E:\Html\hacker rank.png" alt ="thats the symbol of hacker rank">
+    <p><a href="https://www.google.com/">link for suitable browser</a></p>
+    <img src="E:\Html\google logo.png" alt="this is the logo of google">
+    <p><a href="https://code.visualstudio.com/download">link for suitable compiler</a></p>
+    
+    <img src="E:\Html\visual code.png" alt="this is the logo of visual studios">
+    
+<h2>Image Maps</h2>
+<p>click on the icon and get more information:</p>
+
+<img src="E:\Html\hacker rank.png" alt="hackerRank logo" usemap="#hackerRank" width="297" height="170">
+
+<map name="hackerRank">
+  <area shape="circle" coords="32,85,33" alt="hackerrank" href="https://www.hackerrank.com/">
+</map>
+
+<h2>A Description List for learninng codinng</h2>
+
+<dl>
+  <dt>Coding</dt>
+  <dd>- hacker rank or leet code</dd>
+  <dt>data structures</dt>
+  <dd>- prefer books</dd>
+</dl>
+
+
+  </style>
+  <body>
+  
+  <h2>A basic HTML table</h2>
+  
+  <table style="width:100%">
+    <tr>
+      <th>coding </th>
+      <th>flowchart</th>
+      <th>algorithm</th>
+    </tr>
+    <tr>
+      <td>hacker rank</td>
+      <td>youtube</td>
+      <td>books</td>
+    </tr>
+    <tr>
+      <td>practice on paers</td>
+      <td>go for some AI</td>
+      <td>personal notes</td>
+    </tr>
+  </table>
+  <h2>HTML Forms</h2>
+
+
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+      
+</body>
+</html>
